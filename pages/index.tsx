@@ -1,4 +1,2 @@
-const Home = () => <h1>Hello Headless!!!!!</h1>;
-const ENV = process.env.key6;
-console.log('ENV', ENV);
+const Home = () => <h1>Hello {process.env.key6}!!!!!</h1>;
 export default Home;
